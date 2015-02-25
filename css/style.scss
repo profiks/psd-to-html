@@ -4,10 +4,21 @@ header{
     background: url(../img/hedr.jpg) repeat-x;
 }
 
+hr{
+    max-width: 980px;
+    margin: 50px auto;
+}
+
+.topic-list{
+    li{
+        list-style: none;
+    }
+}
 
 
 
 footer{
     background: url(../img/ftr.jpg);
+    min-height: 350px;
     width: auto;
 }
