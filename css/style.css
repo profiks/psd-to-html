@@ -2,18 +2,42 @@ header {
   height: 100px;
   width: auto;
   background: url(../img/hedr.jpg) repeat-x; }
+  header nav a {
+    color: #fff;
+    line-height: 80px;
+    font-weight: bold; }
+  header nav .active, header nav a:hover {
+    text-shadow: -1px 0px 14px white;
+    color: #fff; }
 
-hr {
-  max-width: 980px;
-  margin: 50px auto; }
+p {
+  font-size: 14px;
+  color: #959595; }
+
+h3 {
+  font-size: 1.3em;
+  font-weight: bold; }
+
+.headline {
+  padding: 45px 0 15px 0; }
+  .headline p {
+    font-size: 18px;
+    text-align: center; }
+
+.hr-line {
+  margin-bottom: 65px; }
 
 .topic-list li {
   list-style: none; }
 
 footer {
-  background: url(../img/ftr.jpg);
-  min-height: 350px;
-  width: auto; }
+  background: #ececec;
+  border-top: 1px solid #dedddd;
+  padding: 60px 0 40px 0; }
+  footer li img {
+    border: 2px solid #fff; }
+  footer img[src="img/footer-logo.png"] {
+    margin: 0 0 20px 0; }
 
 /*slider centred nav CSS*/
 .rslides {
