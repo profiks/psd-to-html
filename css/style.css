@@ -3,11 +3,8 @@ header {
   width: auto;
   background: url(../img/hedr.jpg) repeat-x; }
 
-.navigation ul li {
-  float: left;
-  list-style: none;
-  padding-left: 10px; }
-  .navigation ul li a {
-    text-decoration: none; }
+footer {
+  background: url(../img/ftr.jpg);
+  width: auto; }
 
 /*# sourceMappingURL=style.css.map */
