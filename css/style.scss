@@ -1,20 +1,28 @@
 header{
-    height: 100px;
-    width: auto;
+    height: 100px;   
     background: url(../img/hedr.jpg) repeat-x;
     
+    #logo{
+       margin: 5px 0 0 0; 
+    }
+    
         nav{
+                margin: 15px 0 0 0;
+            z-index: 99999999;
             a{
                 color: #fff;
-                line-height: 80px;
-                font-weight: bold;
+                font-weight: bold !important;
             }
             
-            .active, a:hover{
+            .activ, a:hover{
                 text-shadow: -1px 0px 14px rgba(255, 255, 255, 1);
                 color: #fff;
             }
         }
+    
+    .top-bar{
+        background: none;
+    }
 }
 
 p{
@@ -25,6 +33,17 @@ p{
 h3{
     font-size: 1.3em;
     font-weight: bold;
+    color: #959595;
+}
+
+h4{
+    font-size: 1em;
+    color: #959595;
+}
+
+h6,i{
+    font-size: 0.8em;
+  color: #959595;  
 }
 
 .headline{
@@ -65,84 +84,4 @@ footer{
 
 
 
-
-/*slider centred nav CSS*/
-
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
-
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
-  }
-
-
-
-.centered-btns_tabs,
-.transparent-btns_tabs,
-.large-btns_tabs {
-  margin-top: 0px;    
-  text-align: center;
-  }
-
-.centered-btns_tabs li,
-.transparent-btns_tabs li,
-.large-btns_tabs li {
-  display: inline;
-  float: none;
-  _float: left;
-  *float: left;
-  margin-right: 5px;
-  }
-
-.centered-btns_tabs a,
-.transparent-btns_tabs a,
-.large-btns_tabs a {
-  text-indent: -9999px;
-  overflow: hidden;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  background: #ccc;
-  background: rgba(0,0,0, .2);
-  display: inline-block;
-  _display: block;
-  *display: block;
-  -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
-  -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
-  box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
-  width: 9px;
-  height: 9px;
-  }
-
-.centered-btns_here a,
-.transparent-btns_here a,
-.large-btns_here a {
-  background: #222;
-  background: rgba(0,0,0, .8);
-  }
 
